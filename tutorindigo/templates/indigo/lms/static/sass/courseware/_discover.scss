@@ -2,7 +2,7 @@
 .window-wrap #content.content-wrapper {
     padding: 0 !important;
     margin: 0 !important;
-    max-width: 100%;
+    max-width: 1600px;
     @include media-breakpoint-up(lg) {
         margin-top: 64px !important;
     }

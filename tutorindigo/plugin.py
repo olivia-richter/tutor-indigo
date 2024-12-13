@@ -19,20 +19,20 @@ config: t.Dict[str, t.Dict[str, t.Any]] = {
     # Add here your new settings
     "defaults": {
         "VERSION": __version__,
-        "WELCOME_MESSAGE": "The place for all your online learning",
-        "PRIMARY_COLOR": "#15376D",  # Indigo
-        "ENABLE_DARK_TOGGLE": True,
+        "WELCOME_MESSAGE": "Willkommen auf deiner Lernplattform fuer digitale Barrierefreiheit",
+        "PRIMARY_COLOR": "#453F9E",  # dunkelblau
+        "ENABLE_DARK_TOGGLE": False,
         # Footer links are dictionaries with a "title" and "url"
         # To remove all links, run:
         # tutor config save --set INDIGO_FOOTER_NAV_LINKS=[]
         "FOOTER_NAV_LINKS": [
-            {"title": "About Us", "url": "/about"},
-            {"title": "Blog", "url": "/blog"},
-            {"title": "Donate", "url": "/donate"},
-            {"title": "Terms of Service", "url": "/tos"},
-            {"title": "Privacy Policy", "url": "/privacy"},
-            {"title": "Help", "url": "/help"},
-            {"title": "Contact Us", "url": "/contact"},
+            #{"title": "Ueber uns", "url": "/about"},
+            # {"title": "Blog", "url": "/blog"},
+            # {"title": "Donate", "url": "/donate"},
+            # {"title": "Terms of Service", "url": "/tos"},
+            {"title": "Datenschutz", "url": "https://ideenquelle-webdesign.de/datenschutz/"},
+            {"title": "Impressum", "url": "https://ideenquelle-webdesign.de/impressum/"},
+            # {"title": "Kontakt", "url": "/contact"},
         ],
     },
     "unique": {},
